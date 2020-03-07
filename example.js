@@ -26,7 +26,7 @@ store.subscribe(() => {
 const updateNameReducer = (state = {}, actions) => {
   // use destructiong for easy access to action properties
   // and also provide default values
-  let { first_name = "", last_name = "" } = actions;
+  let { first_name = "rodener", last_name = "dajes" } = actions;
 
   switch (actions.type) {
     case "UPDATE_FIRST_NAME":
